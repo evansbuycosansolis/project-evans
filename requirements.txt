@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-dotenv
+openai
+langchain
+pydantic
+requests
+pdfplumber
+pypdf
+speechrecognition
+pyttsx3
+pandas

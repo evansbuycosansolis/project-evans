@@ -1,0 +1,45 @@
+# === Node.js / React (frontend) ===
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.eslintcache
+
+# === Python / FastAPI (backend) ===
+backend/__pycache__/
+backend/.pytest_cache/
+backend/env/
+backend/venv/
+backend/.env
+backend/.DS_Store
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.mypy_cache/
+backend/.coverage
+backend/.coverage.*
+backend/.tox/
+backend/.vscode/
+
+# === General OS & Editor files ===
+.DS_Store
+Thumbs.db
+
+# === VSCode settings ===
+.vscode/
+.history/
+
+# === Python Bytecode (global, in case) ===
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# === Misc ===
+*.log
+*.swp
+*.swo
