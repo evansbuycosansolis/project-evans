@@ -1,41 +1,27 @@
-# Project EVANS
 
-**Empathetic Voice-over Assistant for Nurturing Symptomatologist**
+# Project: Medical- EVANS
+**(Medical- Empathetic Voice-over Assistant for Nurturing Symptomatologist)**
 
 ---
 
 ## Project Vision
 
-Project EVANS is an AI-powered assistant designed to support medical professionals in patient care, documentation, and scheduling. By combining real-time voice transcription, empathetic interaction, and medical record generation, EVANS aims to streamline the clinical workflow and empower doctors to focus on patient well-being.
+Medical- EVANS is an AI-powered assistant built for medical professionals, combining real-time offline voice transcription (powered by OpenAI Whisper) and local Llama 3 LLMs for documentation, Q&A, and scheduling—no cloud required.
 
 **Key Features:**
-- Seamless doctor-patient conversation capture with instant transcription
-- Automated Patient Medical Record (PMR) generation in PDF
-- Smart appointment scheduling and reminders via natural voice commands
-- Patient record search and dynamic overview for quick reference
-- Empathetic, voice-driven interactions to enhance the human side of care
-
-Project EVANS is your AI copilot in healthcare—blending advanced technology with empathy for a better patient experience.
+- Secure, local doctor-patient conversation capture via Whisper (offline STT)
+- Automated Patient Medical Record (PMR) generation and summarization with Llama 3
+- Smart appointment scheduling and reminders
+- Fast local search and overview of patient records
+- Runs fully offline for maximum privacy and reliability
 
 ---
 
-## Structure
+## Tech Stack
 
-- **/src** — Frontend (React/TypeScript) components, hooks, pages, and API handlers
-- **/public** — Static assets
-- **/backend** — Python backend (FastAPI), routes, core logic
-- **/README.md** — This file
-- **/package.json** — Frontend dependencies
-- **/requirements.txt** — Backend dependencies
-
----
-
-## Getting Started
-
-Coming soon…
-
----
-
-## License
-
-[Specify your license here]
+- **Frontend:** React + TypeScript
+- **Backend:** FastAPI (Python)
+- **Audio Transcription:** OpenAI Whisper (local/offline)
+- **LLM/Q&A:** Llama 3 (local/offline)
+- **Langchain, Langgraph RAG
+- **nomic embeddings
